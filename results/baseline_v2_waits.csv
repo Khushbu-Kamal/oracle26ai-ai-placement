@@ -1,0 +1,94 @@
+event,median_time_ms,median_waits
+log file sync,2790.841,4993
+SQL*Net message to client,220.396,49990
+buffer busy waits,103.799,846
+library cache: mutex X,75.263,61
+latch: In memory undo latch,60.891,409
+latch: redo allocation,45.152,315
+cursor: pin S,43.995,38
+enq: TX - index contention,20.577,77
+latch: cache buffers chains,16.139,108
+latch: enqueue hash chains,5.865,40
+latch: redo copy,4.421,23
+Disk file operations I/O,0.862,11
+latch free,0.687,5
+Allocate UGA memory from OS,0.41,60
+buffer deadlock,0.24,2
+Allocate CGA memory from OS,0.223,11
+latch: messages,0.151,3
+Allocate PGA memory from OS,0.12,20
+resmgr:cpu quantum,0.068,1
+latch: undo global data,0.057,1
+asynch descriptor resize,0.028,10
+sequence cache replenishment,0.01,1
+control file parallel write,0.0,0
+external table read,0.0,0
+direct path read,0.0,0
+db file parallel read,0.0,0
+direct path sync,0.0,0
+reliable message,0.0,0
+db file scattered read,0.0,0
+SGA: allocation forcing component growth,0.0,0
+latch: call allocation,0.0,0
+KSV master wait,0.0,0
+Data Guard Broker Wait,0.0,0
+rdbms ipc reply,0.0,0
+cursor: mutex X,0.0,0
+enq: JG - queue lock,0.0,0
+DLM cross inst call completion,0.0,0
+external table write,0.0,0
+enq: FB - contention,0.0,0
+local write wait,0.0,0
+row cache lock,0.0,0
+read by other session,0.0,0
+direct path write,0.0,0
+db file single write,0.0,0
+Failed Logon Delay,0.0,0
+enq: RO - fast object reuse,0.0,0
+latch: lob segment hash table latch,0.0,0
+enq: CR - block range reuse ckpt,0.0,0
+resmgr:plan change,0.0,0
+direct path write temp,0.0,0
+oracle thread bootstrap,0.0,0
+BFILE read,0.0,0
+datafile move cleanup during resize,0.0,0
+AWR Flush,0.0,0
+Compression analysis,0.0,0
+BFILE get path object,0.0,0
+CSS initialization,0.0,0
+latch: object queue header operation,0.0,0
+direct path read temp,0.0,0
+log file switch (private strand flush incomplete),0.0,0
+ASM file metadata operation,0.0,0
+ADR block file read,0.0,0
+library cache load lock,0.0,0
+cursor: pin X,0.0,0
+log file switch completion,0.0,0
+Data file init write,0.0,0
+BFILE internal seek,0.0,0
+BFILE get length,0.0,0
+Allocate DGA memory from OS,0.0,0
+ADR file lock,0.0,0
+wait for MTTR advisory state object,0.0,0
+enq: AE - lock,0.0,0
+enq: KO - fast object checkpoint,0.0,0
+PX Deq: Slave Session Stats,0.0,0
+enq: HW - contention,0.0,0
+undo segment extension,0.0,0
+library cache: bucket mutex X,0.0,0
+latch: session allocation,0.0,0
+ADR block file write,0.0,0
+control file sequential read,0.0,0
+SQL*Net break/reset to client,0.0,0
+latch: shared pool,0.0,0
+SQL*Net more data from client,0.0,0
+Free private memory to OS,0.0,0
+db file sequential read,0.0,0
+external table open,0.0,0
+external table seek,0.0,0
+cursor: pin S wait on X,0.0,0
+BFILE open,0.0,0
+library cache lock,0.0,0
+row cache mutex,0.0,0
+enq: TX - contention,0.0,0
+BFILE closure,0.0,0

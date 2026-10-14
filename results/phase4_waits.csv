@@ -1,0 +1,76 @@
+label,event,median_time_ms,median_waits
+P4_B1_offload_light,log file sync,15769.452,44881
+P4_B1_offload_light,SQL*Net message to client,863.555,406420
+P4_B1_offload_light,cursor: pin S,184.458,165
+P4_B1_offload_light,latch: In memory undo latch,76.085,1350
+P4_B1_offload_light,library cache: mutex X,61.832,303
+P4_B1_offload_light,buffer busy waits,54.324,1631
+P4_B1_offload_light,enq: TX - index contention,27.237,90
+P4_B1_offload_light,latch: cache buffers chains,9.939,117
+P4_B1_offload_light,reliable message,6.928,6
+P4_B1_offload_light,enq: CR - block range reuse ckpt,3.625,6
+P4_B1_offload_light,latch: shared pool,3.072,2
+P4_B1_offload_light,latch: enqueue hash chains,2.903,34
+P4_B1_offload_light,log file switch (private strand flush incomplete),2.534,1
+P4_B1_offload_light,latch: redo allocation,2.071,33
+P4_B1_offload_light,resmgr:cpu quantum,0.734,2
+P4_A2_oracle_moderate,resmgr:cpu quantum,447910.545,62006
+P4_A2_oracle_moderate,log file sync,59763.364,31305
+P4_A2_oracle_moderate,direct path read,26988.257,65483
+P4_A2_oracle_moderate,SQL*Net message to client,7400.196,271111
+P4_A2_oracle_moderate,buffer busy waits,1171.426,1780
+P4_A2_oracle_moderate,latch: In memory undo latch,853.098,1231
+P4_A2_oracle_moderate,library cache: mutex X,469.529,138
+P4_A2_oracle_moderate,latch: cache buffers chains,440.309,513
+P4_A2_oracle_moderate,enq: TX - index contention,177.797,187
+P4_A2_oracle_moderate,latch: redo allocation,164.387,196
+P4_A2_oracle_moderate,cursor: pin S,138.041,91
+P4_A2_oracle_moderate,latch: redo copy,50.377,51
+P4_A2_oracle_moderate,buffer deadlock,40.455,8
+P4_A2_oracle_moderate,latch: enqueue hash chains,37.257,58
+P4_A2_oracle_moderate,SQL*Net break/reset to client,19.563,28
+P4_B2_offload_moderate,log file sync,26050.17,47831
+P4_B2_offload_moderate,SQL*Net message to client,2211.284,435526
+P4_B2_offload_moderate,cursor: pin S,340.192,275
+P4_B2_offload_moderate,buffer busy waits,315.365,2581
+P4_B2_offload_moderate,latch: In memory undo latch,229.76,1852
+P4_B2_offload_moderate,library cache: mutex X,93.076,347
+P4_B2_offload_moderate,latch: cache buffers chains,67.744,295
+P4_B2_offload_moderate,enq: TX - index contention,62.632,149
+P4_B2_offload_moderate,latch: redo allocation,33.189,124
+P4_B2_offload_moderate,enq: CR - block range reuse ckpt,32.741,22
+P4_B2_offload_moderate,latch: enqueue hash chains,17.511,64
+P4_B2_offload_moderate,resmgr:cpu quantum,14.333,10
+P4_B2_offload_moderate,reliable message,10.904,29
+P4_B2_offload_moderate,latch: undo global data,3.674,9
+P4_B2_offload_moderate,latch free,3.085,15
+P4_A1_oracle_light,log file sync,33979.616,44616
+P4_A1_oracle_light,resmgr:cpu quantum,24054.848,3377
+P4_A1_oracle_light,direct path read,14910.476,68218
+P4_A1_oracle_light,SQL*Net message to client,3152.044,398006
+P4_A1_oracle_light,latch: In memory undo latch,743.784,2376
+P4_A1_oracle_light,buffer busy waits,658.099,2674
+P4_A1_oracle_light,library cache: mutex X,387.485,279
+P4_A1_oracle_light,cursor: pin S,221.779,164
+P4_A1_oracle_light,latch: cache buffers chains,209.624,511
+P4_A1_oracle_light,enq: TX - index contention,185.141,239
+P4_A1_oracle_light,latch: redo allocation,77.071,258
+P4_A1_oracle_light,latch: enqueue hash chains,17.216,88
+P4_A1_oracle_light,latch: redo copy,16.904,17
+P4_A1_oracle_light,latch: undo global data,14.13,18
+P4_A1_oracle_light,latch free,13.177,33
+P4_S0e_oltp_only,log file sync,10570.669,41931
+P4_S0e_oltp_only,SQL*Net message to client,386.76,377312
+P4_S0e_oltp_only,cursor: pin S,61.684,52
+P4_S0e_oltp_only,library cache: mutex X,44.496,272
+P4_S0e_oltp_only,latch: In memory undo latch,34.587,983
+P4_S0e_oltp_only,buffer busy waits,25.966,1150
+P4_S0e_oltp_only,enq: TX - index contention,9.631,83
+P4_S0e_oltp_only,latch: cache buffers chains,3.627,56
+P4_S0e_oltp_only,latch: redo allocation,0.873,12
+P4_S0e_oltp_only,latch: enqueue hash chains,0.792,9
+P4_S0e_oltp_only,latch free,0.187,2
+P4_S0e_oltp_only,sequence cache replenishment,0.115,7
+P4_S0e_oltp_only,latch: undo global data,0.047,2
+P4_S0e_oltp_only,buffer deadlock,0.045,3
+P4_S0e_oltp_only,Allocate CGA memory from OS,0.022,2

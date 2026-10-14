@@ -1,0 +1,406 @@
+label,event,median_time_ms,median_waits
+smoke,log file sync,4753.088,8982
+smoke,SQL*Net message to client,274.352,80750
+smoke,buffer busy waits,122.939,676
+smoke,cursor: pin S,43.803,38
+smoke,latch: In memory undo latch,40.972,234
+smoke,reliable message,25.702,79
+smoke,latch: redo allocation,25.286,99
+smoke,enq: TX - index contention,18.527,44
+smoke,log file switch (private strand flush incomplete),18.324,6
+smoke,library cache: mutex X,15.723,70
+smoke,enq: CR - block range reuse ckpt,15.123,69
+smoke,latch: cache buffers chains,4.859,49
+smoke,enq: HW - contention,2.521,6
+smoke,latch: shared pool,1.876,1
+smoke,enq: FB - contention,1.79,7
+S0_oltp_only,log file sync,11581.849,41922
+S0_oltp_only,SQL*Net message to client,427.644,377243
+S0_oltp_only,cursor: pin S,48.052,43
+S0_oltp_only,buffer busy waits,34.429,1019
+S0_oltp_only,latch: In memory undo latch,25.554,747
+S0_oltp_only,library cache: mutex X,23.936,261
+S0_oltp_only,enq: TX - index contention,9.26,46
+S0_oltp_only,latch: cache buffers chains,5.623,51
+S0_oltp_only,direct path sync,5.362,2
+S0_oltp_only,control file parallel write,2.764,6
+S0_oltp_only,Disk file operations I/O,2.68,14
+S0_oltp_only,Data file init write,1.5,14
+S0_oltp_only,latch: redo allocation,1.346,14
+S0_oltp_only,db file single write,0.674,2
+S0_oltp_only,DLM cross inst call completion,0.513,2
+S0b_oltp_only,log file sync,12211.949,41901
+S0b_oltp_only,SQL*Net message to client,456.495,377006
+S0b_oltp_only,cursor: pin S,48.238,41
+S0b_oltp_only,library cache: mutex X,43.202,250
+S0b_oltp_only,buffer busy waits,36.169,998
+S0b_oltp_only,latch: In memory undo latch,35.321,754
+S0b_oltp_only,enq: TX - index contention,11.414,65
+S0b_oltp_only,latch: enqueue hash chains,7.393,16
+S0b_oltp_only,direct path sync,6.54,1
+S0b_oltp_only,latch: cache buffers chains,4.644,59
+S0b_oltp_only,control file parallel write,4.567,3
+S0b_oltp_only,Data file init write,2.517,12
+S0b_oltp_only,latch: redo allocation,2.509,16
+S0b_oltp_only,Disk file operations I/O,1.862,14
+S0b_oltp_only,DLM cross inst call completion,1.019,1
+S0b_oltp_only,log file sync,12979.188,41920
+S0b_oltp_only,SQL*Net message to client,499.83,377195
+S0b_oltp_only,cursor: pin S,91.225,82
+S0b_oltp_only,library cache: mutex X,35.437,292
+S0b_oltp_only,latch: In memory undo latch,31.656,866
+S0b_oltp_only,buffer busy waits,31.537,1160
+S0b_oltp_only,enq: TX - index contention,12.016,68
+S0b_oltp_only,latch: cache buffers chains,3.769,81
+S0b_oltp_only,enq: CR - block range reuse ckpt,2.299,3
+S0b_oltp_only,reliable message,2.227,5
+S0b_oltp_only,latch: enqueue hash chains,1.047,15
+S0b_oltp_only,latch: redo allocation,0.692,11
+S0b_oltp_only,latch free,0.25,4
+S0b_oltp_only,Allocate CGA memory from OS,0.052,4
+S0b_oltp_only,sequence cache replenishment,0.042,6
+A_probe_vec_db,SQL*Net message to client,12.317,2243
+A_probe_vec_db,Disk file operations I/O,0.003,1
+A_probe_vec_db,enq: HW - contention,0.0,0
+A_probe_vec_db,cursor: pin S,0.0,0
+A_probe_vec_db,library cache: mutex X,0.0,0
+A_probe_vec_db,SGA: allocation forcing component growth,0.0,0
+A_probe_vec_db,buffer deadlock,0.0,0
+A_probe_vec_db,enq: TX - index contention,0.0,0
+A_probe_vec_db,log file switch (private strand flush incomplete),0.0,0
+A_probe_vec_db,latch: lob segment query latch,0.0,0
+A_probe_vec_db,row cache mutex,0.0,0
+A_probe_vec_db,enq: TX - contention,0.0,0
+A_probe_vec_db,enq: AE - lock,0.0,0
+A_probe_vec_db,enq: FB - contention,0.0,0
+A_probe_vec_db,kksfbc child completion,0.0,0
+B_vec_db_30qps,log file sync,15078.048,41908
+B_vec_db_30qps,SQL*Net message to client,694.266,380878
+B_vec_db_30qps,cursor: pin S,64.255,57
+B_vec_db_30qps,latch: In memory undo latch,56.345,895
+B_vec_db_30qps,buffer busy waits,53.687,1074
+B_vec_db_30qps,library cache: mutex X,47.308,194
+B_vec_db_30qps,enq: TX - index contention,9.801,65
+B_vec_db_30qps,latch: cache buffers chains,8.954,97
+B_vec_db_30qps,latch: redo allocation,3.503,26
+B_vec_db_30qps,log file switch (private strand flush incomplete),3.246,2
+B_vec_db_30qps,latch: enqueue hash chains,2.231,20
+B_vec_db_30qps,resmgr:cpu quantum,1.949,6
+B_vec_db_30qps,latch: undo global data,0.242,2
+B_vec_db_30qps,latch free,0.182,4
+B_vec_db_30qps,latch: redo copy,0.114,1
+C_vec_ext_30qps,log file sync,10145.555,41931
+C_vec_ext_30qps,SQL*Net message to client,443.596,377231
+C_vec_ext_30qps,cursor: pin S,70.001,63
+C_vec_ext_30qps,latch: In memory undo latch,46.649,771
+C_vec_ext_30qps,buffer busy waits,29.079,1094
+C_vec_ext_30qps,library cache: mutex X,27.927,205
+C_vec_ext_30qps,enq: TX - index contention,5.89,51
+C_vec_ext_30qps,latch: cache buffers chains,2.328,65
+C_vec_ext_30qps,latch: redo allocation,1.692,22
+C_vec_ext_30qps,Free private memory to OS,0.199,1
+C_vec_ext_30qps,latch: enqueue hash chains,0.198,5
+C_vec_ext_30qps,latch free,0.169,2
+C_vec_ext_30qps,buffer deadlock,0.161,4
+C_vec_ext_30qps,Disk file operations I/O,0.155,5
+C_vec_ext_30qps,Allocate CGA memory from OS,0.067,5
+B2_vec_db_50qps,resmgr:cpu quantum,61313.256,757
+B2_vec_db_50qps,log file sync,24074.54,41584
+B2_vec_db_50qps,SQL*Net message to client,2033.878,382653
+B2_vec_db_50qps,buffer busy waits,466.843,2680
+B2_vec_db_50qps,latch: In memory undo latch,400.487,1989
+B2_vec_db_50qps,library cache: mutex X,271.558,234
+B2_vec_db_50qps,cursor: pin S,150.599,122
+B2_vec_db_50qps,latch: cache buffers chains,104.511,484
+B2_vec_db_50qps,enq: TX - index contention,102.354,255
+B2_vec_db_50qps,latch: redo allocation,37.215,156
+B2_vec_db_50qps,reliable message,29.619,67
+B2_vec_db_50qps,latch: enqueue hash chains,29.464,105
+B2_vec_db_50qps,enq: CR - block range reuse ckpt,15.071,46
+B2_vec_db_50qps,latch free,9.731,24
+B2_vec_db_50qps,buffer deadlock,7.677,12
+C2_vec_ext_50qps,log file sync,10522.909,41928
+C2_vec_ext_50qps,SQL*Net message to client,402.847,377250
+C2_vec_ext_50qps,cursor: pin S,78.993,72
+C2_vec_ext_50qps,library cache: mutex X,22.499,228
+C2_vec_ext_50qps,latch: In memory undo latch,19.575,748
+C2_vec_ext_50qps,buffer busy waits,16.948,959
+C2_vec_ext_50qps,enq: CR - block range reuse ckpt,7.572,5
+C2_vec_ext_50qps,enq: TX - index contention,5.76,59
+C2_vec_ext_50qps,reliable message,3.885,5
+C2_vec_ext_50qps,latch: cache buffers chains,3.306,49
+C2_vec_ext_50qps,latch: redo allocation,0.448,7
+C2_vec_ext_50qps,latch: enqueue hash chains,0.19,7
+C2_vec_ext_50qps,Disk file operations I/O,0.083,2
+C2_vec_ext_50qps,latch free,0.073,2
+C2_vec_ext_50qps,latch: undo global data,0.044,1
+A_probe_dual_db,log file sync,283.556,1196
+A_probe_dual_db,SQL*Net message to client,53.529,33975
+A_probe_dual_db,Disk file operations I/O,0.003,1
+A_probe_dual_db,latch: enqueue hash chains,0.0,0
+A_probe_dual_db,enq: CF - contention,0.0,0
+A_probe_dual_db,row cache mutex,0.0,0
+A_probe_dual_db,enq: TX - contention,0.0,0
+A_probe_dual_db,latch: kjci process context latch,0.0,0
+A_probe_dual_db,enq: CR - block range reuse ckpt,0.0,0
+A_probe_dual_db,log file switch (checkpoint incomplete),0.0,0
+A_probe_dual_db,PX Deq: Slave Session Stats,0.0,0
+A_probe_dual_db,BFILE internal seek,0.0,0
+A_probe_dual_db,latch: object queue header operation,0.0,0
+A_probe_dual_db,db file sequential read,0.0,0
+A_probe_dual_db,latch: In memory undo latch,0.0,0
+A_probe_dual_ext,log file sync,2763.053,23403
+A_probe_dual_ext,SQL*Net message to client,112.225,163839
+A_probe_dual_ext,Allocate CGA memory from OS,0.003,1
+A_probe_dual_ext,Disk file operations I/O,0.003,1
+A_probe_dual_ext,latch: kjci process context latch,0.0,0
+A_probe_dual_ext,enq: RO - fast object reuse,0.0,0
+A_probe_dual_ext,PX Deq: Slave Session Stats,0.0,0
+A_probe_dual_ext,sequence cache replenishment,0.0,0
+A_probe_dual_ext,Data Guard Broker Wait,0.0,0
+A_probe_dual_ext,latch: call allocation,0.0,0
+A_probe_dual_ext,latch: cache buffers lru chain,0.0,0
+A_probe_dual_ext,external table open,0.0,0
+A_probe_dual_ext,oracle thread bootstrap,0.0,0
+A_probe_dual_ext,latch: redo allocation,0.0,0
+A_probe_dual_ext,KSV master wait,0.0,0
+A2_probe_dual_db,log file sync,989.011,5374
+A2_probe_dual_db,SQL*Net message to client,57.276,32256
+A2_probe_dual_db,Disk file operations I/O,0.002,1
+A2_probe_dual_db,CSS initialization,0.0,0
+A2_probe_dual_db,db file scattered read,0.0,0
+A2_probe_dual_db,row cache lock,0.0,0
+A2_probe_dual_db,reliable message,0.0,0
+A2_probe_dual_db,enq: TX - index contention,0.0,0
+A2_probe_dual_db,latch free,0.0,0
+A2_probe_dual_db,AWR Flush,0.0,0
+A2_probe_dual_db,external table read,0.0,0
+A2_probe_dual_db,enq: RO - fast object reuse,0.0,0
+A2_probe_dual_db,local write wait,0.0,0
+A2_probe_dual_db,SQL*Net more data from client,0.0,0
+A2_probe_dual_db,cursor: pin S,0.0,0
+A2_probe_dual_ext,log file sync,2838.743,23545
+A2_probe_dual_ext,SQL*Net message to client,112.847,164808
+A2_probe_dual_ext,reliable message,1.625,7
+A2_probe_dual_ext,enq: CR - block range reuse ckpt,0.242,6
+A2_probe_dual_ext,Disk file operations I/O,0.003,1
+A2_probe_dual_ext,Allocate PGA memory from OS,0.0,0
+A2_probe_dual_ext,ASM file metadata operation,0.0,0
+A2_probe_dual_ext,row cache lock,0.0,0
+A2_probe_dual_ext,cursor: mutex X,0.0,0
+A2_probe_dual_ext,wait list latch free,0.0,0
+A2_probe_dual_ext,latch: session allocation,0.0,0
+A2_probe_dual_ext,log file switch (private strand flush incomplete),0.0,0
+A2_probe_dual_ext,control file parallel write,0.0,0
+A2_probe_dual_ext,enq: RO - fast object reuse,0.0,0
+A2_probe_dual_ext,buffer deadlock,0.0,0
+S0c_oltp_only,log file sync,9265.854,41924
+S0c_oltp_only,SQL*Net message to client,351.017,377266
+S0c_oltp_only,cursor: pin S,34.405,31
+S0c_oltp_only,library cache: mutex X,24.495,205
+S0c_oltp_only,latch: In memory undo latch,20.669,775
+S0c_oltp_only,buffer busy waits,18.431,793
+S0c_oltp_only,enq: TX - index contention,4.383,53
+S0c_oltp_only,latch: cache buffers chains,2.495,46
+S0c_oltp_only,reliable message,2.352,9
+S0c_oltp_only,latch: redo allocation,0.732,11
+S0c_oltp_only,enq: CR - block range reuse ckpt,0.384,5
+S0c_oltp_only,latch: enqueue hash chains,0.228,6
+S0c_oltp_only,latch free,0.077,1
+S0c_oltp_only,sequence cache replenishment,0.046,6
+S0c_oltp_only,latch: undo global data,0.01,1
+B3_dual_db_500,log file sync,19407.449,47848
+B3_dual_db_500,SQL*Net message to client,1070.608,413178
+B3_dual_db_500,latch: In memory undo latch,178.314,1305
+B3_dual_db_500,buffer busy waits,140.689,1286
+B3_dual_db_500,library cache: mutex X,75.661,188
+B3_dual_db_500,cursor: pin S,61.596,53
+B3_dual_db_500,latch: cache buffers chains,34.109,243
+B3_dual_db_500,enq: TX - index contention,20.834,84
+B3_dual_db_500,latch: redo allocation,11.189,60
+B3_dual_db_500,resmgr:cpu quantum,7.548,15
+B3_dual_db_500,log file switch (private strand flush incomplete),5.883,3
+B3_dual_db_500,latch: enqueue hash chains,2.952,22
+B3_dual_db_500,latch: cache buffers lru chain,2.087,3
+B3_dual_db_500,latch: shared pool,2.064,2
+B3_dual_db_500,latch free,1.2,6
+C3_dual_ext_500,log file sync,12515.608,47913
+C3_dual_ext_500,SQL*Net message to client,582.533,436055
+C3_dual_ext_500,cursor: pin S,36.306,33
+C3_dual_ext_500,latch: In memory undo latch,35.055,908
+C3_dual_ext_500,library cache: mutex X,23.677,192
+C3_dual_ext_500,enq: CR - block range reuse ckpt,17.364,19
+C3_dual_ext_500,buffer busy waits,17.264,793
+C3_dual_ext_500,reliable message,7.492,22
+C3_dual_ext_500,enq: TX - index contention,5.086,51
+C3_dual_ext_500,latch: cache buffers chains,3.717,72
+C3_dual_ext_500,log file switch (private strand flush incomplete),2.879,2
+C3_dual_ext_500,latch: redo allocation,1.022,17
+C3_dual_ext_500,latch: enqueue hash chains,0.771,15
+C3_dual_ext_500,latch: shared pool,0.338,1
+C3_dual_ext_500,latch free,0.071,2
+B4_dual_db_1500,resmgr:cpu quantum,131450.741,5710
+B4_dual_db_1500,log file sync,48295.574,51527
+B4_dual_db_1500,SQL*Net message to client,4795.199,435531
+B4_dual_db_1500,buffer busy waits,1734.245,4714
+B4_dual_db_1500,latch: In memory undo latch,1375.153,3446
+B4_dual_db_1500,library cache: mutex X,521.849,282
+B4_dual_db_1500,latch: cache buffers chains,474.182,1306
+B4_dual_db_1500,cursor: pin S,299.49,232
+B4_dual_db_1500,enq: TX - index contention,280.472,489
+B4_dual_db_1500,latch: redo allocation,94.945,273
+B4_dual_db_1500,latch: enqueue hash chains,80.856,165
+B4_dual_db_1500,log file switch (private strand flush incomplete),27.991,8
+B4_dual_db_1500,buffer deadlock,27.871,23
+B4_dual_db_1500,SQL*Net break/reset to client,21.947,66
+B4_dual_db_1500,enq: CR - block range reuse ckpt,20.836,3
+C4_dual_ext_1500,log file sync,19041.217,59855
+C4_dual_ext_1500,SQL*Net message to client,1142.695,553402
+C4_dual_ext_1500,cursor: pin S,75.145,68
+C4_dual_ext_1500,latch: In memory undo latch,72.477,1280
+C4_dual_ext_1500,buffer busy waits,46.487,1257
+C4_dual_ext_1500,library cache: mutex X,46.432,219
+C4_dual_ext_1500,latch: cache buffers chains,19.706,274
+C4_dual_ext_1500,enq: TX - index contention,11.661,77
+C4_dual_ext_1500,enq: CR - block range reuse ckpt,5.445,3
+C4_dual_ext_1500,latch: enqueue hash chains,2.795,34
+C4_dual_ext_1500,latch: redo allocation,2.674,39
+C4_dual_ext_1500,reliable message,2.071,4
+C4_dual_ext_1500,db file sequential read,0.829,2
+C4_dual_ext_1500,latch: messages,0.739,3
+C4_dual_ext_1500,latch free,0.489,5
+B4_errcheck,resmgr:cpu quantum,117746.361,8451
+B4_errcheck,log file sync,45102.551,52780
+B4_errcheck,SQL*Net message to client,4346.242,444835
+B4_errcheck,buffer busy waits,1201.2,3954
+B4_errcheck,latch: In memory undo latch,963.575,2968
+B4_errcheck,latch: cache buffers chains,387.133,1162
+B4_errcheck,library cache: mutex X,355.353,245
+B4_errcheck,cursor: pin S,239.125,191
+B4_errcheck,enq: TX - index contention,225.087,407
+B4_errcheck,latch: redo allocation,70.401,240
+B4_errcheck,latch: enqueue hash chains,40.436,131
+B4_errcheck,buffer deadlock,30.197,26
+B4_errcheck,latch: undo global data,21.551,48
+B4_errcheck,log file switch (private strand flush incomplete),17.437,5
+B4_errcheck,SQL*Net break/reset to client,14.107,48
+A_probe_inf_db,SQL*Net message to client,32.329,4004
+A_probe_inf_db,db file sequential read,1.108,3
+A_probe_inf_db,Allocate UGA memory from OS,0.011,1
+A_probe_inf_db,Disk file operations I/O,0.004,1
+A_probe_inf_db,enq: AE - lock,0.0,0
+A_probe_inf_db,read by other session,0.0,0
+A_probe_inf_db,buffer busy waits,0.0,0
+A_probe_inf_db,AWR Flush,0.0,0
+A_probe_inf_db,db file parallel read,0.0,0
+A_probe_inf_db,local write wait,0.0,0
+A_probe_inf_db,BFILE open,0.0,0
+A_probe_inf_db,asynch descriptor resize,0.0,0
+A_probe_inf_db,latch: lob segment query latch,0.0,0
+A_probe_inf_db,log file switch (private strand flush incomplete),0.0,0
+A_probe_inf_db,KSV master wait,0.0,0
+A_probe_inf_ext,SQL*Net message to client,0.028,11
+A_probe_inf_ext,Disk file operations I/O,0.003,1
+A_probe_inf_ext,direct path sync,0.0,0
+A_probe_inf_ext,buffer deadlock,0.0,0
+A_probe_inf_ext,external table read,0.0,0
+A_probe_inf_ext,ADR file lock,0.0,0
+A_probe_inf_ext,latch: redo allocation,0.0,0
+A_probe_inf_ext,log file switch completion,0.0,0
+A_probe_inf_ext,enq: AE - lock,0.0,0
+A_probe_inf_ext,latch: messages,0.0,0
+A_probe_inf_ext,ADR block file read,0.0,0
+A_probe_inf_ext,cursor: pin X,0.0,0
+A_probe_inf_ext,external table write,0.0,0
+A_probe_inf_ext,row cache mutex,0.0,0
+A_probe_inf_ext,buffer busy waits,0.0,0
+B5_inf_db_50,log file sync,16692.771,41882
+B5_inf_db_50,SQL*Net message to client,994.303,380168
+B5_inf_db_50,latch: In memory undo latch,193.634,1486
+B5_inf_db_50,buffer busy waits,169.961,1710
+B5_inf_db_50,library cache: mutex X,127.045,289
+B5_inf_db_50,cursor: pin S,112.222,94
+B5_inf_db_50,latch: cache buffers chains,66.591,189
+B5_inf_db_50,enq: TX - index contention,37.911,109
+B5_inf_db_50,reliable message,16.258,55
+B5_inf_db_50,latch: enqueue hash chains,12.59,43
+B5_inf_db_50,latch: redo allocation,9.209,36
+B5_inf_db_50,resmgr:cpu quantum,7.914,15
+B5_inf_db_50,enq: CR - block range reuse ckpt,6.614,44
+B5_inf_db_50,latch free,2.069,10
+B5_inf_db_50,db file sequential read,0.952,5
+C5_inf_ext_50,log file sync,13266.838,41891
+C5_inf_ext_50,SQL*Net message to client,687.604,376797
+C5_inf_ext_50,cursor: pin S,168.814,151
+C5_inf_ext_50,latch: In memory undo latch,57.258,1270
+C5_inf_ext_50,library cache: mutex X,55.7,300
+C5_inf_ext_50,buffer busy waits,50.831,1517
+C5_inf_ext_50,enq: TX - index contention,12.704,94
+C5_inf_ext_50,latch: cache buffers chains,6.512,104
+C5_inf_ext_50,reliable message,4.197,11
+C5_inf_ext_50,latch: redo allocation,1.598,23
+C5_inf_ext_50,enq: CR - block range reuse ckpt,1.473,10
+C5_inf_ext_50,latch: enqueue hash chains,0.952,22
+C5_inf_ext_50,latch free,0.151,4
+C5_inf_ext_50,resmgr:cpu quantum,0.126,1
+C5_inf_ext_50,sequence cache replenishment,0.052,6
+C5b_inf_ext_50,log file sync,20539.053,41819
+C5b_inf_ext_50,SQL*Net message to client,1334.419,376823
+C5b_inf_ext_50,buffer busy waits,347.947,2422
+C5b_inf_ext_50,cursor: pin S,276.484,234
+C5b_inf_ext_50,latch: In memory undo latch,231.46,1646
+C5b_inf_ext_50,library cache: mutex X,72.025,352
+C5b_inf_ext_50,enq: TX - index contention,46.395,128
+C5b_inf_ext_50,latch: cache buffers chains,32.385,185
+C5b_inf_ext_50,latch: redo allocation,16.833,46
+C5b_inf_ext_50,latch: enqueue hash chains,15.42,50
+C5b_inf_ext_50,reliable message,6.703,6
+C5b_inf_ext_50,latch: undo global data,1.456,2
+C5b_inf_ext_50,enq: CR - block range reuse ckpt,1.352,4
+C5b_inf_ext_50,latch free,1.106,9
+C5b_inf_ext_50,latch: redo copy,0.626,2
+B6_inf_db_100,log file sync,22380.568,41825
+B6_inf_db_100,SQL*Net message to client,1226.664,382963
+B6_inf_db_100,resmgr:cpu quantum,652.725,31
+B6_inf_db_100,buffer busy waits,306.232,1899
+B6_inf_db_100,latch: In memory undo latch,267.196,1561
+B6_inf_db_100,cursor: pin S,161.043,122
+B6_inf_db_100,library cache: mutex X,133.61,268
+B6_inf_db_100,enq: TX - index contention,81.138,161
+B6_inf_db_100,latch: cache buffers chains,40.703,191
+B6_inf_db_100,latch: redo allocation,16.653,71
+B6_inf_db_100,latch: enqueue hash chains,12.691,49
+B6_inf_db_100,latch free,5.001,15
+B6_inf_db_100,latch: redo copy,4.985,5
+B6_inf_db_100,log file switch (private strand flush incomplete),4.354,3
+B6_inf_db_100,buffer deadlock,3.319,10
+C6_inf_ext_100,log file sync,26448.729,41823
+C6_inf_ext_100,SQL*Net message to client,2015.788,376394
+C6_inf_ext_100,cursor: pin S,450.763,348
+C6_inf_ext_100,buffer busy waits,404.819,3145
+C6_inf_ext_100,latch: In memory undo latch,361.198,1960
+C6_inf_ext_100,library cache: mutex X,118.026,399
+C6_inf_ext_100,latch: cache buffers chains,76.385,284
+C6_inf_ext_100,enq: TX - index contention,71.318,172
+C6_inf_ext_100,enq: CR - block range reuse ckpt,34.503,12
+C6_inf_ext_100,latch: enqueue hash chains,16.048,51
+C6_inf_ext_100,latch: redo allocation,13.748,76
+C6_inf_ext_100,log file switch (private strand flush incomplete),9.043,4
+C6_inf_ext_100,reliable message,4.594,11
+C6_inf_ext_100,latch free,4.552,19
+C6_inf_ext_100,resmgr:cpu quantum,2.233,4
+S0d_oltp_only,log file sync,9466.64,41923
+S0d_oltp_only,SQL*Net message to client,358.738,377252
+S0d_oltp_only,cursor: pin S,51.224,44
+S0d_oltp_only,library cache: mutex X,33.145,219
+S0d_oltp_only,latch: In memory undo latch,22.729,855
+S0d_oltp_only,buffer busy waits,12.398,839
+S0d_oltp_only,enq: TX - index contention,4.704,50
+S0d_oltp_only,log file switch completion,2.845,1
+S0d_oltp_only,latch: cache buffers chains,1.571,35
+S0d_oltp_only,latch: redo allocation,0.33,7
+S0d_oltp_only,latch free,0.247,2
+S0d_oltp_only,latch: enqueue hash chains,0.228,7
+S0d_oltp_only,sequence cache replenishment,0.048,6
+S0d_oltp_only,Allocate CGA memory from OS,0.007,1
+S0d_oltp_only,buffer deadlock,0.003,1

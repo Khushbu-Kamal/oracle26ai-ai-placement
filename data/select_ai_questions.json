@@ -1,0 +1,62 @@
+[
+ {
+  "id": 1,
+  "question": "How many customers are there?",
+  "reference_sql": "SELECT COUNT(*) FROM customers"
+ },
+ {
+  "id": 2,
+  "question": "How many products are there?",
+  "reference_sql": "SELECT COUNT(*) FROM products"
+ },
+ {
+  "id": 3,
+  "question": "What is the average product price?",
+  "reference_sql": "SELECT ROUND(AVG(price), 2) FROM products"
+ },
+ {
+  "id": 4,
+  "question": "Which five products are the most expensive?",
+  "reference_sql": "SELECT product_id, price FROM products ORDER BY price DESC FETCH FIRST 5 ROWS ONLY"
+ },
+ {
+  "id": 5,
+  "question": "How many orders are there for each status?",
+  "reference_sql": "SELECT status, COUNT(*) FROM orders GROUP BY status"
+ },
+ {
+  "id": 6,
+  "question": "What is the total value of all orders?",
+  "reference_sql": "SELECT SUM(total_amount) FROM orders"
+ },
+ {
+  "id": 7,
+  "question": "What is the average order value?",
+  "reference_sql": "SELECT ROUND(AVG(total_amount), 2) FROM orders"
+ },
+ {
+  "id": 8,
+  "question": "How many order items are there in total?",
+  "reference_sql": "SELECT COUNT(*) FROM order_items"
+ },
+ {
+  "id": 9,
+  "question": "How many orders did customer 122 place?",
+  "reference_sql": "SELECT COUNT(*) FROM orders WHERE customer_id = 122"
+ },
+ {
+  "id": 10,
+  "question": "Which five customers placed the most orders?",
+  "reference_sql": "SELECT customer_id, COUNT(*) FROM orders GROUP BY customer_id ORDER BY COUNT(*) DESC, customer_id FETCH FIRST 5 ROWS ONLY"
+ },
+ {
+  "id": 11,
+  "question": "Which product has been sold in the greatest quantity?",
+  "reference_sql": "SELECT product_id, SUM(quantity) FROM order_items GROUP BY product_id ORDER BY SUM(quantity) DESC, product_id FETCH FIRST 1 ROWS ONLY"
+ },
+ {
+  "id": 12,
+  "question": "Which customer has the highest total order value?",
+  "reference_sql": "SELECT customer_id, SUM(total_amount) FROM orders GROUP BY customer_id ORDER BY SUM(total_amount) DESC, customer_id FETCH FIRST 1 ROWS ONLY"
+ }
+]
